@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form method="dialog" action="#">
+        <label for="name">name</label>
+        <input type="text" name="name" id="name">
+        <label for="price">price</label>
+        <input type="text" name="price" id="no">
+        <label for="value">value</label>
+        <input type="text" name="value" id="value">
+        <button onclick="add()">add</button>
+        <div id="no1"></div>
+
+        <div id="edit_s">
+            <div class="margin_top">
+                <label class="edit" id="ed_1" for="ed_1">Name: </label>
+                <input type="text" class="edit" id="editing_1">
+            </div>
+            <div class="margin_top">
+                <label class="edit" id="ed_2" for="ed_2">Number: </label>
+                <input type="text" class="edit" id="editing_2">
+    
+            </div>
+            <div class="margin_top">
+                <label class="edit" id="ed_3" for="ed_3">Price: </label>
+                <input type="text" class="edit" id="editing_3">
+            </div>
+            <br>
+            <div>
+                <button class="edit" id="OK" onclick="ok()">OK</button>
+                <button class="edit" id="CANCEL" onclick="cancel()">CANCEL</button>
+            </div>
+        </div>
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
